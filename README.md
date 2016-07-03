@@ -1,8 +1,12 @@
-# Python Firebase
+# Python Firebase for Google App Engine
 
 Python interface to the Firebase's REST API
 
 [![Firebase](https://www.firebase.com/images/logo.png)](http://www.firebase.com)
+
+## Note
+
+This package is the same as the [Python Firebase] package with few modification to allow it to work on Appnengine.
 
 ## Installation
 
