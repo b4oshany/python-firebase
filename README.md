@@ -6,7 +6,9 @@ Python interface to the Firebase's REST API
 
 ## Note
 
-This package is the same as the [Python Firebase] package with few modification to allow it to work on Appnengine.
+This package is a forked version of [Ozgur's python-firebase (the official python firebase module)]with few modifications to allow firebase to work on Google Appenigne.
+
+[Ozgur's python-firebase (the official python firebase module)]: https://github.com/ozgur/python-firebase
 
 ## Installation
 
