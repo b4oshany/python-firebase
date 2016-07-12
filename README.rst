@@ -6,9 +6,9 @@ Python interface to the Firebase's REST API
 .. image:: https://travis-ci.org/ozgur/python-firebase.png?branch=master
    :target: https://travis-ci.org/ozgur/python-firebase
 
-This package is a forked version of `Ozgur's python-firebase (official python firebase module)`_ with few modifications to allow firebase to work on Google Appenigne.
+This package is a forked version of `Ozgur's python-firebase (the official python firebase module)`_ with few modifications to allow firebase to work on Google Appenigne.
 
-.. _`Ozgur's python-firebase (official python firebase module)`: https://github.com/ozgur/python-firebase
+.. _`Ozgur's python-firebase (the official python firebase module)`: https://github.com/ozgur/python-firebase
 
 Installation
 -----------------
