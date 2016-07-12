@@ -10,7 +10,7 @@ with open(os.path.join(os.path.dirname(__file__), 'README.rst')) as readme:
     long_description = readme.read()
 
 
-setup(name='python-firebase',
+setup(name='firegae',
       version='1.2',
       description="Python interface to the Firebase's REST API.",
       long_description=long_description,
