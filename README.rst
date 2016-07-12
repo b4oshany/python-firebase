@@ -1,10 +1,12 @@
-Python Firebase
-=================
+Python Firebase with Google Appengine Support
+=============================================
 
 Python interface to the Firebase's REST API
 
 .. image:: https://travis-ci.org/ozgur/python-firebase.png?branch=master
    :target: https://travis-ci.org/ozgur/python-firebase
+
+This package is a forked version of [Ozgur's python-firebase (official python firebase module)](https://github.com/ozgur/python-firebase) with few modification to allow firebase to work on Google Appenigne.
 
 Installation
 -----------------
