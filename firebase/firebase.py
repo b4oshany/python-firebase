@@ -9,6 +9,7 @@ import json
 from .firebase_token_generator import FirebaseTokenGenerator
 from .decorators import http_connection
 
+from google.appengine.ext import deferred
 from .async import process_pool
 from .jsonutil import JSONEncoder
 

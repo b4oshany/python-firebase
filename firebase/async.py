@@ -15,6 +15,10 @@ def get_process_pool(size=5):
             _process_pool = multiprocessing.Pool(processes=size)
     except:
         pass
+    print _process_pool
+    print "---------------"
+    print "---------------"
+    print "---------------"
     return _process_pool
 process_pool = LazyLoadProxy(get_process_pool)
 
