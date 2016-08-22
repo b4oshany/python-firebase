@@ -34,6 +34,6 @@ setup(name='python-firebase-gae',
       license='MIT',
       packages=['firebase'],
       test_suite='tests.all_tests',
-      install_requires=['requests==2.3.0', 'webob==1.6.1'],
+      install_requires=['requests<=2.3.0', 'webob==1.6.1'],
       zip_safe=False,
 )
