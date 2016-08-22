@@ -26,4 +26,3 @@ if __name__ == '__main__':
             f.write(response)
 
     firebase.get_async('/quizzes', snapshot, callback=callback_get)
-

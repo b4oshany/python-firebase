@@ -13,12 +13,17 @@
 # limitations under the License.
 
 import webapp2
+import config
+import json
 
 
 class MainPage(webapp2.RequestHandler):
     def get(self):
-        self.response.headers['Content-Type'] = 'text/plain'
-        self.response.write('Hello, World!')
+        snapshot = firebase.get('/quizzes', None,
+                     params={'print': 'pretty'},
+                     headers={'X_FANCY_HEADER': 'very fancy'})
+        self.response.headers['Content-Type'] = 'text/json'
+        self.response.write(json.dumps(snapshot))
 
 app = webapp2.WSGIApplication([
     ('/', MainPage),

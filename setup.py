@@ -11,7 +11,7 @@ with open(os.path.join(os.path.dirname(__file__), 'README.rst')) as readme:
 
 
 setup(name='firegae',
-      version='1.2',
+      version='1.0.0',
       description="Python interface to the Firebase's REST API.",
       long_description=long_description,
       classifiers=[
@@ -34,6 +34,6 @@ setup(name='firegae',
       license='MIT',
       packages=['firebase'],
       test_suite='tests.all_tests',
-      install_requires=['requests==2.3.0'],
+      install_requires=['requests==2.3.0', 'webob==1.6.1'],
       zip_safe=False,
 )

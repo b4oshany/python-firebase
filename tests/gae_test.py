@@ -50,12 +50,12 @@ class MockResponse(object):
 
 class FireAppEngineTestCase(unittest.TestCase):
     def setUp(self):
-        # self.testbed = testbed.Testbed()
-        # self.testbed.activate()
-        # self.testbed.setup_env(
-        #     app_id='your-app-id',
-        #     my_config_setting='example',
-        #     overwrite=True)
+        self.testbed = testbed.Testbed()
+        self.testbed.activate()
+        self.testbed.setup_env(
+            app_id='your-app-id',
+            my_config_setting='example',
+            overwrite=True)
 
         self.SECRET = 'FAKE_FIREBASE_SECRET'
         self.DSN = 'https://firebase.localhost'
