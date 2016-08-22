@@ -31,7 +31,7 @@ To fetch all the users in your storage simply do the following:
 ```python
 from firebase import firebase
 firebase = firebase.FirebaseApplication('https://your_storage.firebaseio.com', None)
-result = firebase.get('/users', None)
+result = firebase.get('/users', None, params={'print': 'pretty'}, headers={'X_FANCY_HEADER': 'very fancy'})
 print result
 {'1': 'John Doe', '2': 'Jane Doe'}
 ```
@@ -42,7 +42,7 @@ The second argument of **get** method is the name of the snapshot. Thus, if you 
 ```python
 from firebase import firebase
 firebase = firebase.FirebaseApplication('https://your_storage.firebaseio.com', None)
-result = firebase.get('/users', '1')
+result = firebase.get('/users', '1', params={'print': 'pretty'}, headers={'X_FANCY_HEADER': 'very fancy'})
 print result
 {'1': 'John Doe'}
 ```
