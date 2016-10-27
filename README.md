@@ -17,7 +17,7 @@ This package is a forked version of [Ozgur's python-firebase (the official pytho
 python-firebase highly makes use of the **requests** library so before you begin, you need to have that package installed.
 
     $ sudo pip install requests
-    $ sudo pip install python-firebase
+    $ sudo pip install python-firebase-gae
 
 ## Getting Started
 
