@@ -18,7 +18,7 @@ python-firebase highly makes use of the **requests** library so before you begin
 .. code-block:: bash
 
     $ sudo pip install requests==1.1.0
-    $ sudo pip install python-firebase
+    $ sudo pip install python-firebase-gae
 
 Getting Started
 ------------------
